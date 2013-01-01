@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>rcy everyday</title>
+    <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+    <link href="fullcalendar.css" rel="stylesheet">
+    <link href="grid.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="title">
+      <h1>rcy everyday</h1>
+    </div>
+
+    <div class="grid">
+
+      <div class="col-50">
+        <h1 id="video-title">todays vid</h1>
+        <video id="video-player" class="video-js vjs-default-skin" controls
+               preload="auto" width="640" height="570" poster="my_video_poster.png"
+               data-setup="{}">
+          <source src="../videos/2013/01/01/movie.mp4" type='video/mp4' />
+        </video>
+      </div>
+
+      <div class="col-50">
+        <div id="calendar"></div>
+      </div>
+
+    </div>
+
+    <script src="http://vjs.zencdn.net/c/video.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="fullcalendar.min.js"></script>
+    <script src="videos.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
