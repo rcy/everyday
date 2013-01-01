@@ -2,15 +2,23 @@ body, h1 {
     padding:0;
     margin: 0;
 }
+body {
+    background: #111;
+}
 
 #title {
     padding: 5px;
     margin: 0;
-    background: navy;
-    color: yellow;
+    background: #005;
+    color: #cc3;
+}
+#title .playing {
+    color: red;
 }
 
+
 #calendar {
+    color: #bbb;
 }
 #video {
     min-width: 1000px;
